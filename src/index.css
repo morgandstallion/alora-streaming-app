@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Archivo:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+@import "tailwindcss";
+
+@theme {
+  --color-brand-45: #e50000;
+  --color-brand-50: #ff0000;
+  --color-brand-55: #ff1919;
+  --color-brand-60: #ff3333;
+  --color-brand-80: #ff9999;
+  --color-brand-90: #ffcccc;
+  --color-brand-95: #ffe5e5;
+  --color-brand-99: #fffafa;
+
+  --color-sub-06: #0f0f0f;
+  --color-sub-08: #141414;
+  --color-sub-10: #1a1a1a;
+  --color-sub-12: #1f1f1f;
+  --color-sub-15: #262626;
+  --color-sub-20: #333333;
+  --color-sub-25: #404040;
+  --color-sub-30: #4c4c4c;
+
+  --color-accent-60: #999999;
+  --color-accent-65: #a6a6a6;
+  --color-accent-70: #b3b3b3;
+  --color-accent-75: #bfbfbf;
+  --color-accent-90: #e4e4e7;
+  --color-accent-95: #f1f1f3;
+  --color-accent-97: #f7f7f8;
+  --color-accent-93: #fcfcfd;
+
+  --text-heading-1: clamp(1.75rem, 0.857rem + 2.381vw, 3rem);
+  --text-heading-1--lineheight: 1.5;
+  --text-heading-1--font-weight: 700;
+
+  --text-heading-2: clamp(1.5rem, 1.232rem + 0.714vw, 1.875rem);
+  --text-heading-2--lineheight: 1.5;
+  --text-heading-2--font-weight: 700;
+
+  --text-heading-3: clamp(1.5rem, 1.321rem + 0.476vw, 1.75rem);
+  --text-heading-3--lineheight: 1.5;
+  --text-heading-3--font-weight: 700;
+
+  --text-heading-4: clamp(1.125rem, 1.036rem + 0.238vw, 1.25rem);
+  --text-heading-4--lineheight: 1.5;
+  --text-heading-4--font-weight: 600;
+
+  --text-16: clamp(0.875rem, 0.786rem + 0.238vw, 1rem);
+  --text-16--lineheight: 1.5;
+  --text-16--font-weight: 400;
+
+  --text-18: clamp(1rem, 0.911rem + 0.238vw, 1.125rem);
+  --text-18--lineheight: 1.5;
+  --text-18--font-weight: 600;
+
+  --text-14: 0.875rem;
+  --text-14--lineheight: 1.5;
+  --text-14--font-weight: 400;
+}
+
+@layer base {
+  h1 {
+    @apply text-heading-1;
+  }
+  h2 {
+    @apply text-heading-2;
+  }
+  h3 {
+    @apply text-heading-3;
+  }
+  h4 {
+    @apply text-heading-4;
+  }
+}
+
+@layer components {
+}

@@ -18,7 +18,7 @@ const Navbar = () => {
 
         <Link
           className="bg-brand-45 rounded-sm py-2 px-3 text-brand-95"
-          to="/Login"
+          to="/SignIn"
         >
           Sign in
         </Link>
